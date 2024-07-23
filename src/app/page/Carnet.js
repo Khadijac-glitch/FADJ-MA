@@ -1,15 +1,15 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Cards from './Cards';
-
+import "./Cards.css";
 function Carnet() {
   return (
    <div>
      <Cards/> <br />
-    <div className="flex gap-5 ml-6 px-40">
+    <div className=" cards flex gap-3 ml-6 px-40">
      
      <Card className="border border-black bg-gray-50 rounded-sm"
-    style={{ width: "30rem", height: "9rem" }}
+    style={{ width: "29rem", height: "9rem" }}
     >
       <Card.Header className='flex gap-40 border-b border-gray-700 px-6 h-12 pt-4'><strong>Inventaire</strong>
       <p className='text-sm'>Aller dans configuration</p>
@@ -28,7 +28,7 @@ function Carnet() {
       </Card.Body>
     </Card>
 
-    <Card className="border border-black bg-gray-50 rounded-sm"
+    <Card className=" code border border-black bg-gray-50 rounded-sm"
     style={{ width: "30rem", height: "9rem" }}
     >
       <Card.Header className='flex gap-40 border-b border-gray-700 px-6 h-12 pt-4'><strong>Rapport rapide</strong>
@@ -48,16 +48,16 @@ function Carnet() {
       </Card.Body>
     </Card>
    </div> <br />
-   
-   <div className="flex gap-5 ml-6 px-40">
+
+   <div className=" cards flex gap-3 ml-6 px-40">
    <Card className="border border-black bg-gray-50 rounded-sm"
-    style={{ width: "30rem", height: "9rem" }}
+    style={{ width: "29rem", height: "9rem" }}
     >
       <Card.Header className='flex gap-20 border-b border-gray-700 px-3 h-12 pt-4'><strong>Ma pharmacie</strong>
       <p className='text-sm '>Aller à la gestion des utilisateurs</p>
       </Card.Header>
       <Card.Body>
-        <Card.Text className='flex gap-8 justify-items-center m-2 pt-5'>
+        <Card.Text className='flex gap-4 justify-items-center m-2 pt-5'>
         <div>
             <strong>04</strong>
             <p className='text-gray-700 text-opacity-100 text-sm '>Nombre total des fournisseurs</p>
@@ -70,14 +70,14 @@ function Carnet() {
       </Card.Body>
     </Card>
 
-    <Card className="border border-black bg-gray-50 rounded-sm"
+    <Card className="code border border-black bg-gray-50 rounded-sm"
     style={{ width: "30rem", height: "9rem" }}
     >
       <Card.Header className='flex gap-40 border-b border-gray-700 px-6 h-12 pt-4'><strong>Client</strong>
       <p className='text-sm'>Aller a la page client</p>
       </Card.Header>
       <Card.Body>
-        <Card.Text className='flex gap-8 justify-items-center m-2 pt-5'>
+        <Card.Text className='flex gap-20 justify-items-center m-2 pt-5'>
         <div>
             <strong>845</strong>
             <p className='text-gray-700 text-opacity-100 '>Nombre de clients</p>

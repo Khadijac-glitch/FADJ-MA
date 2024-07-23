@@ -76,7 +76,7 @@ export default function table() {
       <div className="align-center w-full max-w-screen-lg bg-gray-100 p-6 px-5 mx-0 ml-80 ">
         <div className="flex gap-80">
           <div>
-            <h1 className="text-bold text-2xl text-blue-500">Médicaments (298)</h1>
+            <h1 className="text-bold text-2xl text-gray-700">Médicaments (298)</h1>
             <h6>Liste des médicaments disponibles à la vente</h6> <br />
             <SearchInput onChange={handleSearchChange} />
           </div>

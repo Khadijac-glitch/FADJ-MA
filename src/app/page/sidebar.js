@@ -5,6 +5,7 @@ import Image from "next/image";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { MdOutlineSpaceDashboard } from "react-icons/md";
 import { BsClipboard2Plus } from "react-icons/bs";
+import "./Cards.css";
 const Sidebar = () => {
   return (
     <div className="bg-slate-700 text-white w-64 h-screen fixed left-0 top-0 flex flex-col justify-between hidden sm:block">
@@ -48,6 +49,10 @@ const Sidebar = () => {
           <BsClipboard2Plus />
           Médicaments
         </Link>
+      </div>
+      <div className="foot flex gap-3 bg-gray-800 h-8">
+        <span className="text text-sm w-">Propulsé par Red Team © 2024</span>
+        <p className=" text text-sm">version 1.1.2</p>
       </div>
     </div>
   );

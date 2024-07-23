@@ -1,0 +1,25 @@
+
+.cards{
+    position: relative;
+    left: 12px; 
+    /* background: red; */
+}
+.code{
+    position: relative;
+    left: 9px;
+}
+.tabe{
+    position: relative;
+    left: 190px;
+}
+.charge{
+    position: relative;
+    left:230px;
+}
+.text{
+font-size: 11px;
+}
+.foot{
+    position: relative;
+    top:485px;
+}

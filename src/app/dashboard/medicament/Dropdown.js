@@ -39,15 +39,56 @@ const Dropdown = ({ onSelect }) => {
             className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"
             onClick={() => handleSelect('groupe1')}
           >
-            Groupe 1
+          Antibiotiques
           </a>
           <a
             href="#"
             className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"
             onClick={() => handleSelect('groupe2')}
           >
-            Groupe 2
+            Antihypertenseurs
           </a>
+
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"
+            onClick={() => handleSelect('groupe1')}
+          >
+          Diabétes
+          </a>
+
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"
+            onClick={() => handleSelect('groupe1')}
+          >
+          Maladies Cardiovasculaires 
+          </a>
+
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"
+            onClick={() => handleSelect('groupe1')}
+          >
+        Produits à base de plantes
+          </a>
+
+
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"
+            onClick={() => handleSelect('groupe1')}
+          >
+Crèmes et pommades cutanées
+          </a>
+          <a
+            href="#"
+            className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"
+            onClick={() => handleSelect('groupe1')}
+          >
+Gels et sprays anti-inflammatoires
+          </a>
+
           {/* Ajoutez d'autres groupes selon vos besoins */}
         </div>
       )}

@@ -1,9 +1,11 @@
 import Card from "react-bootstrap/Card";
 import Image from "next/image";
+import "./Cards.css";
+
 import { MdKeyboardDoubleArrowRight } from 'react-icons/md';
 function Cards() {
   return (
-    <div className="flex gap-6 ml-6 px-40">
+    <div className="cards flex gap-5 ml-6 px-40">
       <Card
         className="text-center rounded-sm border border-green-500"
         style={{ width: "14rem", height: "10.92rem" }}

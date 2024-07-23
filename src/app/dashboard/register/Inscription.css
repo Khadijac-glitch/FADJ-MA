@@ -1,0 +1,15 @@
+.input{
+    width: 500px;
+}
+.inputs{
+    width: 200px;  
+}
+.register{
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+.img{
+    position: relative;
+    left: 620px;
+}
