@@ -1,9 +1,10 @@
-import React from 'react'
 
+import React from 'react'
+// import Table from './page'
 export default function page() {
   return (
     <div>
-      <h1>Dashboaaaard</h1>
+      {/* <Table/> */}
     </div>
   )
 }

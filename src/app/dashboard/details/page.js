@@ -7,8 +7,8 @@ import Views from './Views';
 export default function page() {
   return (
     <div>
-    <Navbar/>
-    <Sidebar/>
+    {/* <Navbar/>
+    <Sidebar/> */}
     <br />
     <Views/>
     </div>

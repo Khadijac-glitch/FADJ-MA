@@ -1,15 +1,12 @@
-
-import Sidebar from './page/sidebar';
-import Navbar from './page/Navbar';
-import Tables from './page/table';
-
+// import Navbar from "./page/Navbar";
+// import '/global.css';
+import Tables from "./page/Tables";
 export default function Home() {
     return (
-      <div >
-         <Navbar/>
-          <Sidebar/>
-          <br />
-          <Tables/>
+      <div>
+        <Tables/>
       </div>
   );
 }
+
+

@@ -1,8 +1,8 @@
 
 .cards{
     position: relative;
-    left: 12px; 
-    /* background: red; */
+    right:6px; 
+   
 }
 .code{
     position: relative;
@@ -22,4 +22,26 @@ font-size: 11px;
 .foot{
     position: relative;
     top:485px;
+}
+
+.alige{
+    position: relative;
+    left: -4px;
+    color: #1D242E;
+}
+
+@media only screen and (max-width: 600px){
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: -130px;
+    
+}
+.taille{
+    width: 10rem,
+    
+}
+
 }

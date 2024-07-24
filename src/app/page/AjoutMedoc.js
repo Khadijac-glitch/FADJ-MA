@@ -35,7 +35,7 @@ const AjoutMedoc = ({ ajouterMedicament }) => {
   return (
     <>
       <button
-        className="flex bg-gray-50 border-2 border-gray-500 text-black-700 py-2 px-4 rounded"
+        className="flex bg-gray-50 border-2 border-gray-500 text-black-700 py-2 px-4 rounded relative left-16"
         onClick={() => setShowModal(true)}
       >
         {/* <IoAdd className="w-6 h-6" /> */}

@@ -1,94 +1,53 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Cards from './Cards';
-import "./Cards.css";
+// import "./Cards.css";
+import CustomCarnet from './CustomCarnet';
+import CustomCart from'./CustomCart';
 function Carnet() {
   return (
    <div>
-     <Cards/> <br />
+     <Cards/> <br /> <br /> <br />
     <div className=" cards flex gap-3 ml-6 px-40">
-     
-     <Card className="border border-black bg-gray-50 rounded-sm"
-    style={{ width: "29rem", height: "9rem" }}
-    >
-      <Card.Header className='flex gap-40 border-b border-gray-700 px-6 h-12 pt-4'><strong>Inventaire</strong>
-      <p className='text-sm'>Aller dans configuration</p>
-      </Card.Header>
-      <Card.Body>
-        <Card.Text className='flex gap-8 justify-items-center m-2 pt-5'>
-        <div>
-            <strong>298</strong>
-            <p className='text-gray-700 text-opacity-100 '>Nombre total de médicaments</p>
-        </div>
-        <div>
-            <strong>28</strong>
-            <p>Groupe de médecine</p>
-        </div>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-
-    <Card className=" code border border-black bg-gray-50 rounded-sm"
-    style={{ width: "30rem", height: "9rem" }}
-    >
-      <Card.Header className='flex gap-40 border-b border-gray-700 px-6 h-12 pt-4'><strong>Rapport rapide</strong>
-      <p className='text-sm'>Janvier 2022</p>
-      </Card.Header>
-      <Card.Body>
-        <Card.Text className='flex gap-8 justify-items-center m-2 pt-5'>
-        <div>
-            <strong>70856</strong>
-            <p className='text-gray-700 text-opacity-100 '>Quantité de médicaments v...</p>
-        </div>
-        <div>
-            <strong>5288</strong>
-            <p>Factures générées</p>
-        </div>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-   </div> <br />
-
+     <CustomCarnet
+     className="border border-gray-400 bg-white rounded-md"
+     title="Inventaire"
+     subtitle="Aller dans configuration"
+     bold="298"
+     nombre="Nombre total de médicaments"
+     bod="28"
+     groupe="Groupe de médecine"
+     />
+   <CustomCarnet
+     className="reg code border border-gray-400  bg-gray-50 rounded-md"
+     title="Rapport rapide"
+     subtitle="Janvier 2022"
+     bold="70856"
+     nombre="Quantité de médicaments v..."
+     bod="5288"
+     groupe="Factures générées"
+     />
+   </div> 
+   <br />
    <div className=" cards flex gap-3 ml-6 px-40">
-   <Card className="border border-black bg-gray-50 rounded-sm"
-    style={{ width: "29rem", height: "9rem" }}
-    >
-      <Card.Header className='flex gap-20 border-b border-gray-700 px-3 h-12 pt-4'><strong>Ma pharmacie</strong>
-      <p className='text-sm '>Aller à la gestion des utilisateurs</p>
-      </Card.Header>
-      <Card.Body>
-        <Card.Text className='flex gap-4 justify-items-center m-2 pt-5'>
-        <div>
-            <strong>04</strong>
-            <p className='text-gray-700 text-opacity-100 text-sm '>Nombre total des fournisseurs</p>
-        </div>
-        <div>
-            <strong>05</strong>
-            <p>Nombre total des utilisateurs</p>
-        </div>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-
-    <Card className="code border border-black bg-gray-50 rounded-sm"
-    style={{ width: "30rem", height: "9rem" }}
-    >
-      <Card.Header className='flex gap-40 border-b border-gray-700 px-6 h-12 pt-4'><strong>Client</strong>
-      <p className='text-sm'>Aller a la page client</p>
-      </Card.Header>
-      <Card.Body>
-        <Card.Text className='flex gap-20 justify-items-center m-2 pt-5'>
-        <div>
-            <strong>845</strong>
-            <p className='text-gray-700 text-opacity-100 '>Nombre de clients</p>
-        </div>
-        <div >
-            <strong>Adalimumab</strong>
-            <p>Article frequemment...</p>
-        </div>
-        </Card.Text>
-      </Card.Body>
-    </Card>
+<CustomCart
+     className="border border-gray-400  bg-gray-50 rounded-md text-sm "
+     title="Ma pharmacie"
+     subtitle="Aller à la gestion des utilisateurs"
+     bold="04"
+     nombre="Nombre total des fournisseurs"
+     bod="05"
+     groupe="Nombre total des utilisateurs"
+     />
+     <CustomCarnet
+     className=" border border-gray-400 pr--8 bg-gray-50 rounded-md text-sm "
+     title="Client"
+     subtitle="Aller a la page client"
+     bold="845"
+     nombre="Nombre de clients"
+     bod="Adalimumab"
+     groupe="Article frequemment..."
+     />
    </div>
    </div>
   );

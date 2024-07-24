@@ -5,7 +5,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 export default function Navbar() {
   return (
     <div>
-      <nav class="bg-white-800 shadow-md">
+  <nav class="bg-white shadow-md">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -27,7 +27,7 @@ export default function Navbar() {
         <div class="flex flex-shrink-0 items-center">
         </div>
         <div class="hidden sm:ml-6 sm:block">
-          <div class="flex space-x-2 w-100">
+          <div class="flex space-x-1 w-100 relative right-10">
           <input type="text" class="relative inset-y-0 left-60 w-full md:w-96  rounded-md border-0 py-1.5 pl-7 pr-20 bg-slate-200 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Rechercher n&apos;importe quoi ici"/>
           </div>
         </div>
@@ -40,8 +40,8 @@ export default function Navbar() {
       {/*  */}
 
       <div class=" flex absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 ">
-        <div  class=" flex gap-2 relative rounded-full  p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-          <div className=' relative inset-y-2 right-10 flex gap-1 text-zinc-900 hidden md:flex hidden sm:block hover:text-zinc-900  '>
+        <div  class=" flex gap-2 relative  left-20 rounded-full p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+          <div className=' relative inset-y-2 right-10 flex gap-2 text-zinc-900 hidden md:flex hidden sm:block hover:text-zinc-900  '>
           <MdOutlineTranslate />
             <h1 className='text-xs'>Français(France)</h1>
             <MdKeyboardArrowDown />

@@ -3,12 +3,12 @@
 import AjoutMedoc from "./AjoutMedoc";
 import Carnet from"./Carnet";
 import "./Cards.css";
-export default function table() {
+export default function Tables() {
   return (
     <div className="flex justify-center ">
       <div className="align-center p-6 px-40: mx-0 ml-60">
         <div className="tabe flex gap-40">
-          <div className="">
+          <div className="relative right-4">
             <h1 className=" font-extrabold text-2xl text-dark-700">
               Tableau de bord
             </h1>
@@ -17,7 +17,7 @@ export default function table() {
           <div className="charge px-70 h-20">
             <AjoutMedoc />
           </div>
-        </div> <br /> <br />
+        </div>
         <Carnet/>
         <br />
       </div>

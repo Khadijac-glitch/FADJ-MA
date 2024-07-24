@@ -28,7 +28,7 @@ const Sidebar = () => {
             className="object-contain rounded-full "
           />
           <div>
-            <h1 className="text-md">Modou Fall</h1>
+            <h1 className="text-sm">Modou Fall</h1>
             <p className="text-yellow text-xs"> Administrateur</p>
           </div>
           <div className="h-22 pt-2 px-8 ">
@@ -37,14 +37,14 @@ const Sidebar = () => {
         </Link> <br />
         <Link
           href="/"
-          className="flex gap-4 py-2 font-sans px-4 text-white focus:bg-cyan-600 mb-2"
+          className="flex gap-4 py-2  px-4 text-white focus:bg-[#009099] mb-2"
         >
           <MdOutlineSpaceDashboard />
           Tableau de bord
         </Link>
         <Link
           href="dashboard/medicament"
-          className="flex gap-4 py-2 px-4 font-sans text-white focus:bg-cyan-600  mb-2"
+          className="flex gap-4 py-2 px-4 text-white focus:bg-[#009099] mb-2"
         >
           <BsClipboard2Plus />
           Médicaments
