@@ -1,14 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Cards from './Cards';
-// import "./Cards.css";
+import "./Cards.css";
 import CustomCarnet from './CustomCarnet';
 import CustomCart from'./CustomCart';
 function Carnet() {
   return (
    <div>
      <Cards/> <br /> <br /> <br />
-    <div className=" cards flex gap-3 ml-6 px-40">
+    <div className="carnett cards flex gap-3 ml-6 px-40">
      <CustomCarnet
      className="border border-gray-400 bg-white rounded-md"
      title="Inventaire"

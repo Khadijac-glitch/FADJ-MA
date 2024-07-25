@@ -8,14 +8,14 @@ const Dropdown = ({ onSelect }) => {
   };
 
   const handleSelect = (group) => {
-    onSelect(group);
+    // onSelect(group);
     setIsOpen(false); // Fermer le dropdown après la sélection
   };
 
   return (
-    <div className="relative">
+    <div className="z-40">
       <button
-        className="bg-gray-50 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center"
+        className="bg-gray-50 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center border border-gray-500 "
         onClick={toggleDropdown}
       >
         Sélectionner un groupe
@@ -33,7 +33,7 @@ const Dropdown = ({ onSelect }) => {
         </svg>
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 py-2 w-48 bg-white border rounded-lg shadow-xl">
+        <div className="absolute right-0 mt-2 py-2 w-60 bg-white border rounded-lg shadow-xl z-40">
           <a
             href="#"
             className="block px-4 py-2 text-gray-800 hover:bg-slate-200 hover:text-black"

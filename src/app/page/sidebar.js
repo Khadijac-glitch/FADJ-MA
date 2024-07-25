@@ -12,7 +12,7 @@ const Sidebar = () => {
       <div className="">
         <Link
           href="#home"
-          className="flex gap-4 py-4 bg-gray-800 w-100 font-bold px-6 text-white text-2xl hover:pt-6 mb-2"
+          className="flex gap-4 py-4 bg-gray-800 w-64 font-bold px-6 text-white text-2xl hover:pt-6 mb-2"
         >
           <Image src="/logo.png" width={40} height={40} className="" />
           Fadj-Ma
@@ -35,16 +35,18 @@ const Sidebar = () => {
             <BsThreeDotsVertical />
           </div>
         </Link> <br />
+        
+
         <Link
           href="/"
-          className="flex gap-4 py-2  px-4 text-white focus:bg-[#009099] mb-2"
+          className="flex gap-4 py-2  px-4 text-white  hover:bg-[#009099]active:bg-[#009099] focus:outline-none focus:ring focus:ring-[#009099] focus:bg-[#009099]"
         >
           <MdOutlineSpaceDashboard />
           Tableau de bord
         </Link>
         <Link
           href="dashboard/medicament"
-          className="flex gap-4 py-2 px-4 text-white focus:bg-[#009099] mb-2"
+          className="flex gap-4 py-2 px-4 text-white mb-2 hover:bg-[#009099]active:bg-[#009099] focus:outline-none focus:ring focus:ring-[#009099] focus:bg-[#009099]"
         >
           <BsClipboard2Plus />
           Médicaments

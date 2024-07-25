@@ -14,7 +14,7 @@ export default function CustomCard({ className, imageSrc, title, subtitle, foote
                    src={imageSrc}
                    width={40}
                    height={40}
-                   className="inline-block align-middle"
+                   className=" inline-block align-middle"
              />{' '}
              <br />
              <h1 className="text-2xl inline-block align-middle ml-2 font-bold text-black">{title}</h1>

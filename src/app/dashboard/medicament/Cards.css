@@ -1,0 +1,27 @@
+.tabe{
+    position: relative;
+    left: -47px;
+}
+.button{
+    position: relative;
+    left: 80px;
+}
+
+.table{
+    width: 1020px;;
+} 
+@media only screen and (max-width: 600px){
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: -130px;
+    
+}
+.taille{
+    width: 10rem,
+    
+}
+
+}

@@ -35,7 +35,7 @@ const AjoutMedoc = ({ ajouterMedicament }) => {
   return (
     <>
       <button
-        className="flex bg-gray-50 text-black-700 py-2 px-4 rounded"
+        className="flex bg-gray-50 text-black-700 py-2 px-7 rounded border border-gray-500"
         onClick={() => setShowModal(true)}
       >
         <IoAdd className="w-6 h-6" />
@@ -45,7 +45,7 @@ const AjoutMedoc = ({ ajouterMedicament }) => {
 
       <Dropdown />
       <div className={showModal ? 'block' : 'hidden'}>
-        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
+        <div className="fixed inset-0 z-50  flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
           <div className="relative w-auto max-w-md mx-auto my-6">
             <div className="relative bg-white p-6 rounded-lg">
               <div className="flex justify-between items-center mb-4">

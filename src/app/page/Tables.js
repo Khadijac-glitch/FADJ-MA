@@ -8,7 +8,7 @@ export default function Tables() {
     <div className="flex justify-center ">
       <div className="align-center p-6 px-40: mx-0 ml-60">
         <div className="tabe flex gap-40">
-          <div className="relative right-4">
+          <div className="bord">
             <h1 className=" font-extrabold text-2xl text-dark-700">
               Tableau de bord
             </h1>

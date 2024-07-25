@@ -8,7 +8,7 @@ import "./Cards.css";
 export default function Cards() {
   return (
     
-  <div className="alige cards flex  gap-5 ml-6 px-40 ">
+  <div className=" tout cards flex  gap-5 ml-6 px-40 ">
       <CustomCard
       className="taille text-center rounded-sm border border-[#01A768] "
       imageSrc="/vert.png" 
@@ -21,7 +21,7 @@ export default function Cards() {
     />
 
      <CustomCard
-       className="text-center rounded-sm border border-[#FED600] "
+       className="taille text-center rounded-sm border border-[#FED600] "
        imageSrc="/jaune.png"
        title="4.800.432"
        subtitle="Revenu: janvier 2022"

@@ -11,7 +11,7 @@ export default function SearchInput({ onChange }) {
     <div className="relative flex items-center gap-2">
       <input
         type="text"
-        className="w-full md:w-96 rounded-md border border-black  py-1.5 bg-[#E3EBF3] text-gray-700 text-sm sm:text-sm sm:leading-6"
+        className="w-full md:w-96 rounded-md border border-gray-500 placeholder:px-6 placeholder:text-gray-700 py-1.5 bg-[#E3EBF3]  text-sm sm:text-sm sm:leading-6"
         placeholder="Rechercher dans l'inventaire des médicaments."
         onChange={handleInputChange}
       />

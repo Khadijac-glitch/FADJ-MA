@@ -8,10 +8,7 @@
     position: relative;
     left: 9px;
 }
-.tabe{
-    position: relative;
-    left: 190px;
-}
+
 .charge{
     position: relative;
     left:230px;
@@ -26,8 +23,22 @@ font-size: 11px;
 
 .alige{
     position: relative;
-    left: -4px;
+    left: 4px;
     color: #1D242E;
+}
+
+.tra{
+    position: relative;
+    left:35px;
+}
+
+.bord{
+    position: relative;
+    left: 230px;
+}
+.charge{
+    position: relative;
+    left: 430px;
 }
 
 @media only screen and (max-width: 600px){
@@ -40,8 +51,45 @@ font-size: 11px;
     
 }
 .taille{
-    width: 10rem,
+    width:1rem,
     
+}
+.tout{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.carnett{
+    /* width: ; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.bord{
+    position: relative;
+    left: 116px;
+    font-size: 10px;
+}
+.rapport{
+position: relative;
+left: -450px;
+width: 133px;
+font-size: 10px;
+}
+.tra{
+    position: relative;
+    left:12px;
+}
+.boule{
+    position: relative;
+    left:90px
+}
+.tag{
+  width: 10rem;
+  height: 10rem;  
+} 
+.reg{
+    position: relative;
+    left: -3px;
 }
 
 }

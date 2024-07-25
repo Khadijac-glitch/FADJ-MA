@@ -41,16 +41,15 @@ export default function Navbar() {
 
       <div class=" flex absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 ">
         <div  class=" flex gap-2 relative  left-20 rounded-full p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-          <div className=' relative inset-y-2 right-10 flex gap-2 text-zinc-900 hidden md:flex hidden sm:block hover:text-zinc-900  '>
+          <div className='relative inset-y-2 right-10 flex gap-2 text-zinc-900 hidden md:flex hidden sm:block hover:text-zinc-900  '>
           <MdOutlineTranslate />
             <h1 className='text-xs'>Français(France)</h1>
             <MdKeyboardArrowDown />
           </div>
-          <div className=' relative inset-y-0 left-20 bg-yellow-200 rounded-full h-4 w-4'fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"></div>
-          <div>
+          <div className='boule relative left-28 bg-yellow-200 rounded-full h-4 w-4'fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"></div>
+          <div className='tra'>
           <h2 className='px-20 text-sm font-bold text-zinc-900'>Bonjour</h2>
           <p className="text-xs text-zinc-900">14 janvier 2022   22:45:02</p>
-
           </div>
         </div>
       </div>
@@ -61,7 +60,6 @@ export default function Navbar() {
 
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
-
       <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Fadj-Ma</a>
       <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Modou Fall </a>
       <Link href="/" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Tableau de bord</Link>
